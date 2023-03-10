@@ -15,7 +15,7 @@
                 "image": "devicon-threejs-original"
             },
             {
-                "title": "Javascript (ES6)",
+                "title": " (ES6)",
                 "image": "devicon-javascript-plain"
             },
             {
@@ -29,6 +29,10 @@
             {
                 "title": "Tailwind",
                 "image": "devicon-tailwindcss-plain"
+            },
+            {
+                "title": "Bulma",
+                "image": "devicon-bulma-plain"
             }
         ]
     },
@@ -44,16 +48,16 @@
                 "image": "devicon-nodejs-plain"
             },
             {
-                "title": "Java",
-                "image": "devicon-java-plain"
-            },
-            {
                 "title": "MongoDB",
                 "image": "devicon-mongodb-plain"
             },
             {
                 "title": "Laravel",
                 "image": "devicon-laravel-plain"
+            },
+            {
+                "title": "PHP",
+                "image": "devicon-php-plain"
             }
         ]
     },

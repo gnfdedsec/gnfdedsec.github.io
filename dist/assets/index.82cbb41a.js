@@ -35957,9 +35957,9 @@ const $T = {
 		},
 		setup(n) {
 			const e = {
-					contact: { title: 'Contact', route: '/contact' },
 					skills: { title: 'Skills', route: '/skills' },
-					works: { title: 'Works', route: '/work' }
+					works: { title: 'Achievements', route: '/work' },
+					contact: { title: 'Contact', route: '/contact' }
 				},
 				t = lt(!1);
 			return {
@@ -35994,18 +35994,18 @@ const $T = {
 			}
 		}
 	},
-	ZT = (n) => ($p('data-v-0a9888da'), (n = n()), Zp(), n),
+	ZT = (n) => ($p('data-v-38da5804'), (n = n()), Zp(), n),
 	KT = { class: 'pt-2 navbar fixed w-full divCenter' },
 	JT = { class: '2xl:flex flex-row py-3 px-3 hidden ml-20' },
 	QT = { class: 'text-4xl font-bold headers' },
-	e2 = on('Aaron'),
+	e2 = on('gnf '),
 	t2 = { class: 'text-2xl inline-block px-10 pt-[0.4rem]' },
 	n2 = { class: 'flex flex-row' },
 	i2 = ZT(() => Q('div', null, [Q('div', { class: 'w-[30rem]' })], -1)),
 	r2 = { class: 'rightSide flex flex-row gap-4' },
 	s2 = { class: '2xl:hidden flex flex-row py-3 items-center' },
 	a2 = { class: 'text-3xl font-bold sm:-ml-[0px]' },
-	o2 = on(' Aaron '),
+	o2 = on(' GNF DEDSEC '),
 	l2 = { class: 'rightSide flex flex-row gap-4' },
 	c2 = { key: 0, class: 'has-dpdn' },
 	u2 = { key: 1, class: 'has-dpdn' },
@@ -36152,7 +36152,7 @@ function f2(n, e, t, i, r, s) {
 }
 var h2 = $t($T, [
 	['render', f2],
-	['__scopeId', 'data-v-0a9888da']
+	['__scopeId', 'data-v-38da5804']
 ]);
 const p2 = {
 		emits: ['apply-theme'],
@@ -38427,7 +38427,8 @@ const bd = function (n, e = {}) {
 		G = d();
 	(E.strings = p(c0(E.strings))), E.strings.length && g();
 };
-const sA = {
+var sA = '/assets/images/gnf.webp';
+const aA = {
 		data() {
 			return { display: !1 };
 		},
@@ -38446,34 +38447,36 @@ const sA = {
 				}
 			})
 				.type(
-					'Hello! I am a full stack web developer based in Malaysia.'
+					'Hello! I &nbsp; am a frontend  &nbsp; developer &nbsp; based &nbsp; in  &nbsp;Thailand.'
 				)
 				.go();
 		}
 	},
-	aA = { class: 'flex flex-col gap-[2.5rem]' },
-	oA = { class: 'divCenter' },
-	lA = {
+	oA = { class: 'flex flex-col gap-[2.5rem]' },
+	lA = { class: 'divCenter' },
+	cA = {
 		id: 'landing_intro',
 		ref: 'landingIntro',
 		class: 'lg:text-xl text-md acrlyic w-auto text-center selector'
 	},
-	cA = Qo(
-		'<section class=""><h1 class="text-4xl font-bold">Aaron Lyn</h1><h3 class="text-lg">Professional web developer</h3></section><section class="pt-2"><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Professional background </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 Professional junior web developer capable professional looking and user-friendly websites from stratch and writes <strong>performance optimized, reusable and refactorable codes</strong>. Professionally developed 5 web applications with multiple Javascript frameworks. </p><br><p class="lg:text-lg text-sm text-justify leading-6"> Hungry for knowledge, collaborative individual and possess analytical skills. Enjoys problem solving and willing to adapt to changes in the industry to stay on top. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Bio </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 Aaron has a strong passion on technology and computers. Outside of programmimg, Aaron has a hobby of collecting and engage with technology. He likes to tinker with his Arch Linux Operating System and enjoys collecting custom keyboards. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Journey </h2><br><div class="flex flex-col gap-2"><p class="lg:text-lg text-sm text-justify"><strong>2017:</strong> \xA0 Started journey on programming as a hobby </p><p class="lg:text-lg text-sm text-justify"><strong>2020:</strong> \xA0 Enrolled for diploma of ICT with specalism in software engineering </p><p class="lg:text-lg text-sm text-justify"><strong>2022:</strong> \xA0 Started journey on web development </p></div></section>',
+	uA = Qo(
+		'<div class="flex flex-col lg:flex-row"><div class="lg:w-1/2 p-4 order-2 lg:order-1"><section><h1 class="text-4xl font-bold">gnf dedsec</h1><h3 class="text-lg"> Professional Front-end developer</h3><h3 class="text-lg"> B.sc KKU TH </h3></section></div><div class="lg:w-1/2 p-4 order-1 lg:order-2 flex justify-center items-center"><section><div class="rounded-full overflow-hidden h-48 w-48 border border-white-800 image-container"><img src="' +
+            sA +
+            '" alt="Image description" class="w-full h-full object-cover"></div></section></div></div><section class="pt-2"><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Professional background </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 Professional junior web developer capable professional looking and user-friendly websites from stratch and writes <strong>performance optimized, reusable and refactorable codes</strong>. Professionally developed 5 web applications with multiple Javascript frameworks. </p><br><p class="lg:text-lg text-sm text-justify leading-6"> Hungry for knowledge, collaborative individual and possess analytical skills. Enjoys problem solving and willing to adapt to changes in the industry to stay on top. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Bio </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 gnf has a strong passion on technology and computers. Outside of programmimg, gnf has a hobby of collecting and engage with technology. He likes to tinker with his Arch Linux Operating System and enjoys collecting custom keyboards. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Journey </h2><br><div class="flex flex-col gap-2"><p class="lg:text-lg text-sm text-justify"><strong>2017:</strong> \xA0 Started journey on programming as a hobby </p><p class="lg:text-lg text-sm text-justify"><strong>2020:</strong> \xA0 Enrolled for diploma of ICT with specalism in software engineering </p><p class="lg:text-lg text-sm text-justify"><strong>2022:</strong> \xA0 Started journey on web development </p></div></section>',
 		4
 	);
-function uA(n, e, t, i, r, s) {
-	return Re(), Oe('div', aA, [Q('div', oA, [Q('p', lA, null, 512)]), cA]);
+function dA(n, e, t, i, r, s) {
+	return Re(), Oe('div', oA, [Q('div', lA, [Q('p', cA, null, 512)]), uA]);
 }
-var dA = $t(sA, [['render', uA]]),
-	fA = [
+var fA = $t(aA, [['render', dA]]),
+	hA = [
 		{
 			Image: './assets/images/work1.png',
 			Title: 'Shopify Clone',
 			Description:
                 'Shopify is a popular E-commerce website that allows the user to setup an online store and sell their products. This project clones the basic functionalities of shopify such as user interface, user authentication functionalities, along with adding products to database ',
 			Sidenote:
-                'This is Aaron\'s first project developed in Vue3 and Laravel',
+                'This is gnf dedsec\'s first project developed in Vue3 and Laravel',
 			Github: 'https://github.com/Kuon-dev/Shopify-Clone',
 			Tags: ['Vue3', 'Laravel', 'PHP', 'MySQL', 'TailwindCSS']
 		},
@@ -38496,17 +38499,17 @@ var dA = $t(sA, [['render', uA]]),
 			Tags: ['PHP', 'HTML5', 'CSS3', 'MYSQL']
 		}
 	];
-const hA = {
+const pA = {
 		name: 'TagsComponent',
 		props: { tagSettings: { type: Array, required: !1 } }
 	},
-	pA = { class: 'mt-5' },
-	mA = { class: 'flex flex-row gap-5 flex-wrap' };
-function gA(n, e, t, i, r, s) {
+	mA = { class: 'mt-5' },
+	gA = { class: 'flex flex-row gap-5 flex-wrap' };
+function bA(n, e, t, i, r, s) {
 	return (
 		Re(),
-		Oe('div', pA, [
-			Q('ul', mA, [
+		Oe('div', mA, [
+			Q('ul', gA, [
 				(Re(!0),
 				Oe(
 					xt,
@@ -38532,14 +38535,14 @@ function gA(n, e, t, i, r, s) {
 		])
 	);
 }
-var bA = $t(hA, [
-	['render', gA],
+var xA = $t(pA, [
+	['render', bA],
 	['__scopeId', 'data-v-56e9355d']
 ]);
-const xA = {
-		components: { TagsComponent: bA },
+const yA = {
+		components: { TagsComponent: xA },
 		data() {
-			return { worksData: fA, indexMaxLength: 0, isInMobile: !1 };
+			return { worksData: hA, indexMaxLength: 0, isInMobile: !1 };
 		},
 		setup() {
 			const n = lt('');
@@ -38561,14 +38564,14 @@ const xA = {
 			window.innerWidth < 1536 && (this.isInMobile = !0);
 		}
 	},
-	yA = { class: 'divCenter' },
-	_A = {
+	_A = { class: 'divCenter' },
+	vA = {
 		id: 'works_intro',
 		class: 'lg:text-xl text-md acrlyic w-auto text-center selector',
 		ref: 'worksIntro'
 	},
-	vA = Q('br', null, null, -1),
-	wA = Q(
+	wA = Q('br', null, null, -1),
+	MA = Q(
 		'div',
 		null,
 		[
@@ -38580,37 +38583,37 @@ const xA = {
 		],
 		-1
 	),
-	MA = Q('br', null, null, -1),
-	SA = { class: 'flex flex-col divCenter pt-5' },
-	TA = { class: 'xl:max-w-[40rem] w-auto 2xl:block hidden' },
-	EA = ['src'],
-	AA = { class: '2xl:pt-2 xl:max-w-[40rem]' },
-	kA = {
+	SA = Q('br', null, null, -1),
+	TA = { class: 'flex flex-col divCenter pt-5' },
+	EA = { class: 'xl:max-w-[40rem] w-auto 2xl:block hidden' },
+	AA = ['src'],
+	kA = { class: '2xl:pt-2 xl:max-w-[40rem]' },
+	CA = {
 		class: 'lg:text-xl pb-4 sm:pb-0 text-lg font-bold underline sm:underline-offset-8 decoration-3 sm:decoration-4 whitespace-nowrap'
 	},
-	CA = { class: 'xl:max-w-[40rem] w-auto 2xl:hidden flex flex-col' },
-	RA = ['src'],
-	LA = { class: 'lg:text-lg text-md text-justify py-2 2xl:py-5' },
-	PA = {
+	RA = { class: 'xl:max-w-[40rem] w-auto 2xl:hidden flex flex-col' },
+	LA = ['src'],
+	PA = { class: 'lg:text-lg text-md text-justify py-2 2xl:py-5' },
+	IA = {
 		key: 0,
 		class: 'lg:text-lg text-sm text-justify leading-6 2xl:py-2 py-3'
 	},
-	IA = Q('br', null, null, -1),
-	DA = { class: 'decoration-2 underline' },
-	OA = ['href'],
-	NA = { key: 1, class: 'mt-3' },
-	FA = Q('br', null, null, -1),
-	BA = { style: { 'border-color': 'var(--text-highlight)' } };
-function zA(n, e, t, i, r, s) {
+	DA = Q('br', null, null, -1),
+	OA = { class: 'decoration-2 underline' },
+	NA = ['href'],
+	FA = { key: 1, class: 'mt-3' },
+	BA = Q('br', null, null, -1),
+	zA = { style: { 'border-color': 'var(--text-highlight)' } };
+function UA(n, e, t, i, r, s) {
 	const a = vn('TagsComponent');
 	return (
 		Re(),
 		Oe('section', null, [
-			Q('div', yA, [Q('p', _A, null, 512)]),
-			vA,
+			Q('div', _A, [Q('p', vA, null, 512)]),
 			wA,
 			MA,
-			Q('div', SA, [
+			SA,
+			Q('div', TA, [
 				(Re(!0),
 				Oe(
 					xt,
@@ -38631,7 +38634,7 @@ function zA(n, e, t, i, r, s) {
 									key: l
 								},
 								[
-									Q('div', TA, [
+									Q('div', EA, [
 										Q(
 											'img',
 											{
@@ -38640,7 +38643,7 @@ function zA(n, e, t, i, r, s) {
 											},
 											null,
 											8,
-											EA
+											AA
 										),
 										Ge(
 											a,
@@ -38653,9 +38656,9 @@ function zA(n, e, t, i, r, s) {
 											['tagSettings']
 										)
 									]),
-									Q('div', AA, [
-										Q('h2', kA, yn(o.Title), 1),
-										Q('div', CA, [
+									Q('div', kA, [
+										Q('h2', CA, yn(o.Title), 1),
+										Q('div', RA, [
 											Q(
 												'img',
 												{
@@ -38664,7 +38667,7 @@ function zA(n, e, t, i, r, s) {
 												},
 												null,
 												8,
-												RA
+												LA
 											),
 											Ge(
 												a,
@@ -38677,26 +38680,26 @@ function zA(n, e, t, i, r, s) {
 												['tagSettings']
 											)
 										]),
-										Q('p', LA, yn(o.Description), 1),
+										Q('p', PA, yn(o.Description), 1),
 										o.Sidenote !== ''
 											? (Re(),
-											Oe('p', PA, yn(o.Sidenote), 1))
+											Oe('p', IA, yn(o.Sidenote), 1))
 											: Nt('', !0),
-										IA,
-										Q('strong', DA, [
+										DA,
+										Q('strong', OA, [
 											Q(
 												'a',
 												{ href: o.Github },
 												'View this project on Github',
 												8,
-												OA
+												NA
 											)
 										]),
 										r.isInMobile
 											? (Re(),
-											Oe('div', NA, [
-												FA,
-												Zn(Q('hr', BA, null, 512), [
+											Oe('div', FA, [
+												BA,
+												Zn(Q('hr', zA, null, 512), [
 													[
 														ha,
 														l !== r.indexMaxLength
@@ -38716,7 +38719,7 @@ function zA(n, e, t, i, r, s) {
 		])
 	);
 }
-var UA = $t(xA, [['render', zA]]),
+var HA = $t(yA, [['render', UA]]),
 	g0 = [
 		{
 			type: 'frontend',
@@ -38724,13 +38727,11 @@ var UA = $t(xA, [['render', zA]]),
 				{ title: 'React', image: 'devicon-react-original' },
 				{ title: 'Vue', image: 'devicon-vuejs-plain' },
 				{ title: 'ThreeJS', image: 'devicon-threejs-original' },
-				{
-					title: 'Javascript (ES6)',
-					image: 'devicon-javascript-plain'
-				},
+				{ title: ' (ES6)', image: 'devicon-javascript-plain' },
 				{ title: 'HTML5', image: 'devicon-html5-plain' },
 				{ title: 'CSS3', image: 'devicon-css3-plain' },
-				{ title: 'Tailwind', image: 'devicon-tailwindcss-plain' }
+				{ title: 'Tailwind', image: 'devicon-tailwindcss-plain' },
+				{ title: 'Bulma', image: 'devicon-bulma-plain' }
 			]
 		},
 		{
@@ -38738,9 +38739,9 @@ var UA = $t(xA, [['render', zA]]),
 			technologies: [
 				{ title: 'Python', image: 'devicon-python-plain' },
 				{ title: 'Node', image: 'devicon-nodejs-plain' },
-				{ title: 'Java', image: 'devicon-java-plain' },
 				{ title: 'MongoDB', image: 'devicon-mongodb-plain' },
-				{ title: 'Laravel', image: 'devicon-laravel-plain' }
+				{ title: 'Laravel', image: 'devicon-laravel-plain' },
+				{ title: 'PHP', image: 'devicon-php-plain' }
 			]
 		},
 		{
@@ -38753,7 +38754,7 @@ var UA = $t(xA, [['render', zA]]),
 			]
 		}
 	];
-const HA = {
+const VA = {
 		name: 'CardComponent',
 		props: {
 			title: { type: String, required: !1, default: null },
@@ -38767,14 +38768,14 @@ const HA = {
 		},
 		mounted() {}
 	},
-	VA = {
+	GA = {
 		key: 0,
 		class: 'flex flex-col items-center gap-2 animate__animated animate__fadeIn animate__fast'
 	},
-	GA = { class: 'font-bold whitespace-nowrap' },
-	WA = { key: 1 },
-	jA = { class: 'transition ease-in-out px-2 text-lg' };
-function XA(n, e, t, i, r, s) {
+	WA = { class: 'font-bold whitespace-nowrap' },
+	jA = { key: 1 },
+	XA = { class: 'transition ease-in-out px-2 text-lg' };
+function YA(n, e, t, i, r, s) {
 	return (
 		Re(),
 		Oe('div', null, [
@@ -38804,16 +38805,16 @@ function XA(n, e, t, i, r, s) {
 				[
 					t.isParagraph
 						? (Re(),
-						Oe('div', WA, [
+						Oe('div', jA, [
 							Q(
 								'div',
-								jA,
+								XA,
 								yn(r.isClicked ? t.argOne : t.title),
 								1
 							)
 						]))
 						: (Re(),
-						Oe('div', VA, [
+						Oe('div', GA, [
 							Q(
 								'i',
 								{
@@ -38823,7 +38824,7 @@ function XA(n, e, t, i, r, s) {
 								null,
 								2
 							),
-							Q('p', GA, yn(t.title), 1)
+							Q('p', WA, yn(t.title), 1)
 						]))
 				],
 				34
@@ -38831,13 +38832,13 @@ function XA(n, e, t, i, r, s) {
 		])
 	);
 }
-var YA = $t(HA, [
-	['render', XA],
+var qA = $t(VA, [
+	['render', YA],
 	['__scopeId', 'data-v-e8f66912']
 ]);
-const qA = {
+const $A = {
 		name: 'SkillBarContent',
-		components: { CardComponent: YA },
+		components: { CardComponent: qA },
 		props: {
 			title: { type: String, required: !1 },
 			description: { type: String, required: !1 },
@@ -38882,21 +38883,21 @@ const qA = {
 			}
 		}
 	},
-	$A = { class: 'flex sm:flex-row flex-col lg:pt-10' },
-	ZA = { class: 'flex flex-row sm:flex-col mt-4 ml-[auto] sm:ml-0' },
-	KA = ['onClick'],
-	JA = { class: 'mt-5 lg:-mt-5 lg:pt-0' },
-	QA = {
+	ZA = { class: 'flex sm:flex-row flex-col lg:pt-10' },
+	KA = { class: 'flex flex-row sm:flex-col mt-4 ml-[auto] sm:ml-0' },
+	JA = ['onClick'],
+	QA = { class: 'mt-5 lg:-mt-5 lg:pt-0' },
+	ek = {
 		key: 0,
 		class: 'flex sm:flex-row flex-col gap-2 lg:gap-8 ml-0 sm:ml-4 animate__animated animate__fadeIn'
 	},
-	ek = { class: 'grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2' };
-function tk(n, e, t, i, r, s) {
+	tk = { class: 'grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2' };
+function nk(n, e, t, i, r, s) {
 	const a = vn('CardComponent');
 	return (
 		Re(),
-		Oe('section', $A, [
-			Q('div', ZA, [
+		Oe('section', ZA, [
+			Q('div', KA, [
 				(Re(!0),
 				Oe(
 					xt,
@@ -38922,14 +38923,14 @@ function tk(n, e, t, i, r, s) {
 								},
 								yn(o),
 								11,
-								KA
+								JA
 							)
 						)
 					),
 					128
 				))
 			]),
-			Q('div', JA, [
+			Q('div', QA, [
 				(Re(!0),
 				Oe(
 					xt,
@@ -38944,8 +38945,8 @@ function tk(n, e, t, i, r, s) {
 								[
 									o.type === r.selectedTech
 										? (Re(),
-										Oe('div', QA, [
-											Q('div', ek, [
+										Oe('div', ek, [
+											Q('div', tk, [
 												(Re(!0),
 												Oe(
 													xt,
@@ -39002,13 +39003,13 @@ function tk(n, e, t, i, r, s) {
 		])
 	);
 }
-var nk = $t(qA, [['render', tk]]);
-const ik = {
+var ik = $t($A, [['render', nk]]);
+const rk = {
 		data() {
 			return { skillsData: g0, paddingValue: 0, loaded: !1 };
 		},
 		props: { responsiveValue: { type: Number, default: 0 } },
-		components: { SkillBarContent: nk },
+		components: { SkillBarContent: ik },
 		methods: {
 			fetch: function () {
 				console.log(document.getElementById('render'));
@@ -39292,7 +39293,7 @@ const ik = {
 				.go();
 		}
 	},
-	rk = Q(
+	sk = Q(
 		'div',
 		null,
 		[
@@ -39306,7 +39307,7 @@ const ik = {
 			Q('br'),
 			Q('p', { class: 'lg:text-lg text-sm text-justify leading-6' }, [
 				on(
-					' \xA0\xA0\xA0\xA0 Aaron is a full-stacked developer focused on '
+					' \xA0\xA0\xA0\xA0 gnf is a full-stacked developer focused on '
 				),
 				Q('strong', null, ' VueJS and PHP Laravel '),
 				on(
@@ -39316,10 +39317,10 @@ const ik = {
 		],
 		-1
 	),
-	sk = Q('br', null, null, -1),
 	ak = Q('br', null, null, -1),
 	ok = Q('br', null, null, -1),
-	lk = Q(
+	lk = Q('br', null, null, -1),
+	ck = Q(
 		'h2',
 		{
 			class: 'lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2'
@@ -39327,18 +39328,18 @@ const ik = {
 		' My technology ',
 		-1
 	),
-	ck = { class: 'pt-[3.5rem] sm:px-10 transition ease-in-out' },
-	uk = {
+	uk = { class: 'pt-[3.5rem] sm:px-10 transition ease-in-out' },
+	dk = {
 		class: 'lg:text-md md:text-sm text-[0.6rem] acrlyic selector min-h-[10rem] py-2 px-1 rounded-xl'
 	},
-	dk = Qo(
+	fk = Qo(
 		'<div class="flex flex-row ml-2"><div class="code-block-terminal sm:h-4 h-2 sm:w-4 w-2 bg-rose-500"></div><div class="code-block-terminal sm:h-4 h-2 sm:w-4 w-2 bg-yellow-500"></div><div class="code-block-terminal sm:h-4 h-2 sm:w-4 w-2 bg-green-500"></div></div><div class="code-block-lines flex h-[0.05rem] w-full"></div>',
 		2
 	),
-	fk = {
+	hk = {
 		class: 'flex flex-row mt-3 leading-4 md:leading-6 overflow-x-scroll relative'
 	},
-	hk = Q(
+	pk = Q(
 		'div',
 		{
 			class: 'code-block-lines min-h-[10rem] w-[0.05rem] mx-2 sm:mx-3 flex selector leading-4 md:leading-6'
@@ -39346,28 +39347,28 @@ const ik = {
 		null,
 		-1
 	),
-	pk = { id: 'demo', class: '', ref: 'textField' },
-	mk = {
+	mk = { id: 'demo', class: '', ref: 'textField' },
+	gk = {
 		id: 'render',
 		class: 'mt-5 acrlyic selector py-10 px-5 rounded-xl',
 		ref: 'contentRenderer'
 	};
-function gk(n, e, t, i, r, s) {
+function bk(n, e, t, i, r, s) {
 	const a = vn('SkillBarContent');
 	return (
 		Re(),
 		Oe('div', null, [
 			Q('div', null, [
-				rk,
 				sk,
 				ak,
 				ok,
 				lk,
+				ck,
 				Ge(a),
-				Q('div', ck, [
-					Q('div', uk, [
-						dk,
-						Q('div', fk, [
+				Q('div', uk, [
+					Q('div', dk, [
+						fk,
+						Q('div', hk, [
 							Q('div', null, [
 								(Re(),
 								Oe(
@@ -39387,18 +39388,18 @@ function gk(n, e, t, i, r, s) {
 									64
 								))
 							]),
-							hk,
-							Q('div', null, [Q('code', pk, null, 512)])
+							pk,
+							Q('div', null, [Q('code', mk, null, 512)])
 						])
 					]),
-					Q('div', mk, null, 512)
+					Q('div', gk, null, 512)
 				])
 			])
 		])
 	);
 }
-var bk = $t(ik, [['render', gk]]);
-const xk = {
+var xk = $t(rk, [['render', bk]]);
+const yk = {
 		setup() {
 			const e = {}.VITE_API_ENDPOINT + '/message',
 				t = lt(!1),
@@ -39467,18 +39468,18 @@ const xk = {
 			};
 		}
 	},
-	mr = (n) => ($p('data-v-c0285922'), (n = n()), Zp(), n),
-	yk = Qo(
-		'<section class="" data-v-c0285922><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2" data-v-c0285922> Get in touch </h2><br data-v-c0285922><p class="lg:text-lg text-sm text-justify leading-6" data-v-c0285922> \xA0\xA0\xA0\xA0 Have an idea you want it to become a reality? I can make it happen for you! Don&#39;t feel hesitated to contact me, I will be responding to your messages as soon as possible. </p></section><section class="divCenter pt-5 8xl:ml-[-70rem] 7xl:ml-[-55rem] 6xl:ml-[-20rem] 5xl:ml-[-10rem] 4xl:ml-[-5rem] 3xl:ml-[-2rem] xl:mr-[40rem] lg:mr-[27rem] md:mr-[15rem] sm:ml-[0rem] ml-[3rem] flex flex-col w-full" data-v-c0285922><div id="Contact_ThreeContainer" class="-mt-10 pl-20 hidden" data-v-c0285922></div></section><section class="pt-5" data-v-c0285922><p class="lg:text-lg text-sm text-justify leading-6" data-v-c0285922> You can reach me by emailing me at <strong data-v-c0285922>aaronlyn88@gmail.com</strong>. I will be able to reply to your mail within 2 days of working days. </p></section><br data-v-c0285922>',
+	mr = (n) => ($p('data-v-816e8ae4'), (n = n()), Zp(), n),
+	_k = Qo(
+		'<section class="" data-v-816e8ae4><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2" data-v-816e8ae4> Get in touch </h2><br data-v-816e8ae4><p class="lg:text-lg text-sm text-justify leading-6" data-v-816e8ae4> \xA0\xA0\xA0\xA0 Have an idea you want it to become a reality? I can make it happen for you! Don&#39;t feel hesitated to contact me, I will be responding to your messages as soon as possible. </p></section><section class="divCenter pt-5 8xl:ml-[-70rem] 7xl:ml-[-55rem] 6xl:ml-[-20rem] 5xl:ml-[-10rem] 4xl:ml-[-5rem] 3xl:ml-[-2rem] xl:mr-[40rem] lg:mr-[27rem] md:mr-[15rem] sm:ml-[0rem] ml-[3rem] flex flex-col w-full" data-v-816e8ae4><div id="Contact_ThreeContainer" class="-mt-10 pl-20 hidden" data-v-816e8ae4></div></section><section class="pt-5" data-v-816e8ae4><p class="lg:text-lg text-sm text-justify leading-6" data-v-816e8ae4> You can reach me by emailing me at <strong data-v-816e8ae4>gnf dedsec88@gmail.com</strong>. I will be able to reply to your mail within 2 days of working days. </p></section><br data-v-816e8ae4>',
 		4
 	),
-	_k = { class: '' },
-	vk = { class: 'lg:text-lg text-sm text-justify leading-6' },
-	wk = on(' You can visit my '),
-	Mk = { class: 'underline' },
-	Sk = on('portfolio'),
-	Tk = on(' to view my works. Alternatively, you can visit my '),
-	Ek = mr(() =>
+	vk = { class: '' },
+	wk = { class: 'lg:text-lg text-sm text-justify leading-6' },
+	Mk = on(' You can visit my '),
+	Sk = { class: 'underline' },
+	Tk = on('portfolio'),
+	Ek = on(' to view my works. Alternatively, you can visit my '),
+	Ak = mr(() =>
 		Q(
 			'strong',
 			{ class: 'underline' },
@@ -39486,9 +39487,9 @@ const xk = {
 			-1
 		)
 	),
-	Ak = on(' to view my projects posted on Github '),
-	kk = { class: 'pt-10 hidden' },
-	Ck = mr(() =>
+	kk = on(' to view my projects posted on Github '),
+	Ck = { class: 'pt-10 hidden' },
+	Rk = mr(() =>
 		Q(
 			'div',
 			{ class: '' },
@@ -39504,11 +39505,11 @@ const xk = {
 			-1
 		)
 	),
-	Rk = { class: 'divCenter pt-10' },
-	Lk = { class: 'w-full max-w-lg' },
-	Pk = { class: 'flex flex-wrap -mx-3 mb-6' },
-	Ik = { class: 'w-full md:w-1/2 px-3 mb-6 md:mb-0' },
-	Dk = mr(() =>
+	Lk = { class: 'divCenter pt-10' },
+	Pk = { class: 'w-full max-w-lg' },
+	Ik = { class: 'flex flex-wrap -mx-3 mb-6' },
+	Dk = { class: 'w-full md:w-1/2 px-3 mb-6 md:mb-0' },
+	Ok = mr(() =>
 		Q(
 			'label',
 			{
@@ -39519,9 +39520,9 @@ const xk = {
 			-1
 		)
 	),
-	Ok = { key: 0, class: 'text-red-500 text-xs italic' },
-	Nk = { class: 'w-full md:w-1/2 px-3' },
-	Fk = mr(() =>
+	Nk = { key: 0, class: 'text-red-500 text-xs italic' },
+	Fk = { class: 'w-full md:w-1/2 px-3' },
+	Bk = mr(() =>
 		Q(
 			'label',
 			{
@@ -39532,9 +39533,9 @@ const xk = {
 			-1
 		)
 	),
-	Bk = { class: 'flex flex-wrap -mx-3 mb-6' },
-	zk = { class: 'w-full px-3' },
-	Uk = mr(() =>
+	zk = { class: 'flex flex-wrap -mx-3 mb-6' },
+	Uk = { class: 'w-full px-3' },
+	Hk = mr(() =>
 		Q(
 			'label',
 			{
@@ -39545,11 +39546,11 @@ const xk = {
 			-1
 		)
 	),
-	Hk = { key: 0, class: 'text-red-500 text-xs italic' },
-	Vk = { key: 1, class: 'text-red-500 text-xs italic' },
-	Gk = { class: 'flex flex-wrap -mx-3 mb-6' },
-	Wk = { class: 'w-full px-3' },
-	jk = mr(() =>
+	Vk = { key: 0, class: 'text-red-500 text-xs italic' },
+	Gk = { key: 1, class: 'text-red-500 text-xs italic' },
+	Wk = { class: 'flex flex-wrap -mx-3 mb-6' },
+	jk = { class: 'w-full px-3' },
+	Xk = mr(() =>
 		Q(
 			'label',
 			{
@@ -39560,40 +39561,40 @@ const xk = {
 			-1
 		)
 	),
-	Xk = { key: 0, class: 'text-red-500 text-xs italic' },
-	Yk = { class: 'md:flex md:items-center' },
-	qk = { class: 'md:w-2/3' },
-	$k = { key: 0, class: 'text-red-500 text-xs italic pt-5' },
-	Zk = { key: 1, class: 'success text-md pt-5' },
-	Kk = mr(() => Q('div', { class: 'md:w-1/3' }, null, -1));
-function Jk(n, e, t, i, r, s) {
+	Yk = { key: 0, class: 'text-red-500 text-xs italic' },
+	qk = { class: 'md:flex md:items-center' },
+	$k = { class: 'md:w-2/3' },
+	Zk = { key: 0, class: 'text-red-500 text-xs italic pt-5' },
+	Kk = { key: 1, class: 'success text-md pt-5' },
+	Jk = mr(() => Q('div', { class: 'md:w-1/3' }, null, -1));
+function Qk(n, e, t, i, r, s) {
 	const a = vn('router-link');
 	return (
 		Re(),
 		Oe('div', null, [
-			yk,
-			Q('section', _k, [
-				Q('p', vk, [
-					wk,
-					Q('strong', Mk, [
+			_k,
+			Q('section', vk, [
+				Q('p', wk, [
+					Mk,
+					Q('strong', Sk, [
 						Ge(
 							a,
 							{ to: '/work' },
-							{ default: nn(() => [Sk]), _: 1 }
+							{ default: nn(() => [Tk]), _: 1 }
 						)
 					]),
-					Tk,
 					Ek,
-					Ak
+					Ak,
+					kk
 				])
 			]),
-			Q('section', kk, [
-				Ck,
-				Q('div', Rk, [
-					Q('form', Lk, [
-						Q('div', Pk, [
-							Q('div', Ik, [
-								Dk,
+			Q('section', Ck, [
+				Rk,
+				Q('div', Lk, [
+					Q('form', Pk, [
+						Q('div', Ik, [
+							Q('div', Dk, [
+								Ok,
 								Zn(
 									Q(
 										'input',
@@ -39615,13 +39616,13 @@ function Jk(n, e, t, i, r, s) {
 									? (Re(),
 									Oe(
 										'p',
-										Ok,
+										Nk,
 										' Please fill out this field. '
 									))
 									: Nt('', !0)
 							]),
-							Q('div', Nk, [
-								Fk,
+							Q('div', Fk, [
+								Bk,
 								Zn(
 									Q(
 										'input',
@@ -39641,9 +39642,9 @@ function Jk(n, e, t, i, r, s) {
 								)
 							])
 						]),
-						Q('div', Bk, [
-							Q('div', zk, [
-								Uk,
+						Q('div', zk, [
+							Q('div', Uk, [
+								Hk,
 								Zn(
 									Q(
 										'input',
@@ -39664,19 +39665,19 @@ function Jk(n, e, t, i, r, s) {
 									? (Re(),
 									Oe(
 										'p',
-										Hk,
+										Vk,
 										' Please fill out this field. '
 									))
 									: Nt('', !0),
 								i.showInvalidEmail
 									? (Re(),
-									Oe('p', Vk, ' Email entered is invalid '))
+									Oe('p', Gk, ' Email entered is invalid '))
 									: Nt('', !0)
 							])
 						]),
-						Q('div', Gk, [
-							Q('div', Wk, [
-								jk,
+						Q('div', Wk, [
+							Q('div', jk, [
+								Xk,
 								Zn(
 									Q(
 										'textarea',
@@ -39697,14 +39698,14 @@ function Jk(n, e, t, i, r, s) {
 									? (Re(),
 									Oe(
 										'p',
-										Xk,
+										Yk,
 										' Please fill out this field. '
 									))
 									: Nt('', !0)
 							])
 						]),
-						Q('div', Yk, [
-							Q('div', qk, [
+						Q('div', qk, [
+							Q('div', $k, [
 								Q(
 									'button',
 									{
@@ -39722,7 +39723,7 @@ function Jk(n, e, t, i, r, s) {
 									? (Re(),
 									Oe(
 										'p',
-										$k,
+										Zk,
 										' An error has occurred, please try again later. '
 									))
 									: Nt('', !0),
@@ -39730,12 +39731,12 @@ function Jk(n, e, t, i, r, s) {
 									? (Re(),
 									Oe(
 										'p',
-										Zk,
+										Kk,
 										' Your message has been received! '
 									))
 									: Nt('', !0)
 							]),
-							Kk
+							Jk
 						])
 					])
 				])
@@ -39743,13 +39744,13 @@ function Jk(n, e, t, i, r, s) {
 		])
 	);
 }
-var Qk = $t(xk, [
-	['render', Jk],
-	['__scopeId', 'data-v-c0285922']
+var eC = $t(yk, [
+	['render', Qk],
+	['__scopeId', 'data-v-816e8ae4']
 ]);
-const eC = {},
-	tC = { class: 'divCenter flex flex-col gap-10' },
-	nC = Q(
+const tC = {},
+	nC = { class: 'divCenter flex flex-col gap-10' },
+	iC = Q(
 		'div',
 		{
 			class: 'pt-5 flex lg:flex-row flex-col lg:gap-[3rem] gap-5 items-center'
@@ -39765,33 +39766,33 @@ const eC = {},
 		],
 		-1
 	),
-	iC = {
+	rC = {
 		class: 'return_to_home_btn border-2 p-2 px-5 text-xl lg:mt-[3rem] mt-5 transition ease-in-out'
 	},
-	rC = on('Back to home page');
-function sC(n, e, t, i, r, s) {
+	sC = on('Back to home page');
+function aC(n, e, t, i, r, s) {
 	const a = vn('router-link');
 	return (
 		Re(),
-		Oe('div', tC, [
-			nC,
+		Oe('div', nC, [
+			iC,
 			Q('div', null, [
-				Q('button', iC, [
-					Ge(a, { to: '/' }, { default: nn(() => [rC]), _: 1 })
+				Q('button', rC, [
+					Ge(a, { to: '/' }, { default: nn(() => [sC]), _: 1 })
 				])
 			])
 		])
 	);
 }
-var aC = $t(eC, [['render', sC]]);
-var oC = OE({
+var oC = $t(tC, [['render', aC]]);
+var lC = OE({
 	history: K2(),
 	routes: [
-		{ path: '/', name: 'homepg', component: dA, props: !0 },
-		{ path: '/work', name: 'work', component: UA, props: !0 },
-		{ path: '/skills', name: 'skills', component: bk, props: !0 },
-		{ path: '/contact', name: 'contact', component: Qk, props: !0 },
-		{ path: '/:pathMatch(.*)*', name: 'notfound', component: aC, props: !0 }
+		{ path: '/', name: 'homepg', component: fA, props: !0 },
+		{ path: '/work', name: 'work', component: HA, props: !0 },
+		{ path: '/skills', name: 'skills', component: xk, props: !0 },
+		{ path: '/contact', name: 'contact', component: eC, props: !0 },
+		{ path: '/:pathMatch(.*)*', name: 'notfound', component: oC, props: !0 }
 	]
 });
-Kx(P2).use(oC).mount('#app');
+Kx(P2).use(lC).mount('#app');

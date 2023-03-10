@@ -8,10 +8,34 @@
         class="lg:text-xl text-md acrlyic w-auto text-center selector"
       ></p>
     </div>
-    <section class="">
-      <h1 class="text-4xl font-bold">Aaron Lyn</h1>
-      <h3 class="text-lg">Professional web developer</h3>
-    </section>
+    <div class="flex flex-col lg:flex-row">
+      <!-- Column 1 -->
+      <div class="lg:w-1/2 p-4 order-2 lg:order-1">
+        <section>
+          <h1 class="text-4xl font-bold">gnf dedsec</h1>
+          <h3 class="text-lg">Professional Front-end developer</h3>
+          <h3 class="text-lg">B.sc KKU TH</h3>
+        </section>
+      </div>
+
+      <!-- Column 2 -->
+      <div
+        class="lg:w-1/2 p-4 order-1 lg:order-2 flex justify-center items-center"
+      >
+        <section>
+          <div
+            class="rounded-full overflow-hidden h-48 w-48 border border-white-800 image-container"
+          >
+            <img
+              src="/assets/images/gnf.webp"
+              alt="Image description"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+
     <section class="pt-2">
       <h2
         class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"
@@ -43,8 +67,8 @@
       </h2>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
-        &nbsp;&nbsp;&nbsp;&nbsp; Aaron has a strong passion on technology and
-        computers. Outside of programmimg, Aaron has a hobby of collecting and
+        &nbsp;&nbsp;&nbsp;&nbsp; gnf has a strong passion on technology and
+        computers. Outside of programmimg, gnf has a hobby of collecting and
         engage with technology. He likes to tinker with his Arch Linux Operating
         System and enjoys collecting custom keyboards.
       </p>
@@ -87,7 +111,7 @@ import { ref } from 'vue';
 export default {
 	data() {
 		return {
-			display: false,
+			display: false
 		};
 	},
 	setup() {
@@ -106,26 +130,31 @@ export default {
 			// remove cursor when finished
 			afterComplete: function (instance) {
 				instance.destroy();
-			},
+			}
 		})
-			.type('Hello! I am a full stack web developer based in Malaysia.')
+			.type(
+				'Hello! I &nbsp; am a frontend  &nbsp; developer &nbsp; based &nbsp; in  &nbsp;Thailand.'
+			)
 			.go();
-	},
+	}
 };
 </script>
 
 <style>
-.selector {
-  background-color: var(--bg-sel);
-}
+  .lg\:w-1\/2 {
+    padding: 0px !important;
+  }
+  .selector {
+    background-color: var(--bg-sel);
+  }
 
-.copyright {
-  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
-  animation-delay: 3s;
-}
+  .copyright {
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+  }
 
-/* @keyframes copyright {
+  /* @keyframes copyright {
   0% {
     opacity: 0;
   }
@@ -133,5 +162,40 @@ export default {
     opacity: 1;
     visibility: visible;
   }
-} */
+} add*/
+  .image-container {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+
+  .image-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+  }
 </style>

@@ -119,7 +119,7 @@ html {
     color: var(--text-highlight-2);
     transition: color 0.5s ease-in-out;
 }
-.headers[data-v-0a9888da] {
+.headers[data-v-38da5804] {
     transition: color 0.5s ease-in-out;
 } /*!
  * animate.css - https://animate.style/
@@ -3929,6 +3929,19 @@ html {
     background-color: var(--text-highlight-2);
     border-radius: 0.5rem;
 }
+@font-face {
+    font-family: MonoLisa;
+    src: url(/assets/MonoLisa.a8ef858b.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: MonoLisa !important;
+    font-size: 1.125rem;
+    line-height: 1.95rem;
+    letter-spacing: 0.017rem;
+    font-weight: 300;
+}
 :root {
     --ctp-latte-rosewater: #de9584;
     --ctp-latte-rosewater-rgb: rgb(222, 149, 132);
@@ -4691,6 +4704,12 @@ video {
 .z-50 {
     z-index: 50;
 }
+.order-2 {
+    order: 2;
+}
+.order-1 {
+    order: 1;
+}
 .float-right {
     float: right;
 }
@@ -4818,6 +4837,9 @@ video {
 .h-\[8rem\] {
     height: 8rem;
 }
+.h-full {
+    height: 100%;
+}
 .h-5 {
     height: 1.25rem;
 }
@@ -4838,9 +4860,6 @@ video {
 }
 .h-\[0\.15rem\] {
     height: 0.15rem;
-}
-.h-full {
-    height: 100%;
 }
 .min-h-\[10rem\] {
     min-height: 10rem;
@@ -5041,6 +5060,9 @@ video {
 .rounded {
     border-radius: 0.25rem;
 }
+.rounded-full {
+    border-radius: 9999px;
+}
 .rounded-xl {
     border-radius: 0.75rem;
 }
@@ -5097,8 +5119,15 @@ video {
 .bg-center {
     background-position: center;
 }
+.object-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 .p-2 {
     padding: 0.5rem;
+}
+.p-4 {
+    padding: 1rem;
 }
 .p-1 {
     padding: 0.25rem;
@@ -5536,6 +5565,12 @@ video {
     }
 }
 @media (min-width: 1024px) {
+    .lg\:order-1 {
+        order: 1;
+    }
+    .lg\:order-2 {
+        order: 2;
+    }
     .lg\:-mt-5 {
         margin-top: -1.25rem;
     }
@@ -5550,6 +5585,9 @@ video {
     }
     .lg\:inline-grid {
         display: inline-grid;
+    }
+    .lg\:w-1\/2 {
+        width: 50%;
     }
     .lg\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -5676,6 +5714,9 @@ video {
         margin-left: -70rem;
     }
 }
+.lg\:w-1\/2 {
+    padding: 0 !important;
+}
 .selector {
     background-color: var(--bg-sel);
 }
@@ -5686,6 +5727,54 @@ video {
     animation-duration: 1s;
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
+}
+.image-container {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.image-container:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+@keyframes pulse {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0.9);
+    }
 }
 .tags[data-v-56e9355d]:hover {
     color: var(--text-highlight-2);
@@ -5802,27 +5891,27 @@ video {
 #demo .html-class {
     color: var(--text-highlight-2);
 }
-hr[data-v-c0285922] {
+hr[data-v-816e8ae4] {
     border-color: var(--text);
 }
-input[data-v-c0285922] {
+input[data-v-816e8ae4] {
     background-color: var(--bg-sel);
     border-color: var(--text-highlight);
 }
-input[data-v-c0285922]:focus {
+input[data-v-816e8ae4]:focus {
     border-color: var(--text-highlight-2);
 }
-textarea[data-v-c0285922] {
+textarea[data-v-816e8ae4] {
     background-color: var(--bg-sel);
     border-color: var(--text-highlight);
 }
-textarea[data-v-c0285922]:focus {
+textarea[data-v-816e8ae4]:focus {
     border-color: var(--text-highlight-2);
 }
-button[data-v-c0285922] {
+button[data-v-816e8ae4] {
     background-color: var(--bg-sel);
 }
-.success[data-v-c0285922] {
+.success[data-v-816e8ae4] {
     color: var(--text-highlight);
 }
 .return_to_home_btn {

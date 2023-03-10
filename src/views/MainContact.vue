@@ -21,7 +21,7 @@
     <section class="pt-5">
       <p class="lg:text-lg text-sm text-justify leading-6">
         You can reach me by emailing me at
-        <strong>aaronlyn88@gmail.com</strong>. I will be able to reply to your
+        <strong>gnf dedsec88@gmail.com</strong>. I will be able to reply to your
         mail within 2 days of working days.
       </p>
     </section>

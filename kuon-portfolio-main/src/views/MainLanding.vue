@@ -9,7 +9,7 @@
       ></p>
     </div>
     <section class="">
-      <h1 class="text-4xl font-bold">Aaron Lyn</h1>
+      <h1 class="text-4xl font-bold">gnf Lyn</h1>
       <h3 class="text-lg">Professional web developer</h3>
     </section>
     <section class="pt-2">
@@ -43,8 +43,8 @@
       </h2>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
-        &nbsp;&nbsp;&nbsp;&nbsp; Aaron has a strong passion on technology and
-        computers. Outside of programmimg, Aaron has a hobby of collecting and
+        &nbsp;&nbsp;&nbsp;&nbsp; gnf has a strong passion on technology and
+        computers. Outside of programmimg, gnf has a hobby of collecting and
         engage with technology. He likes to tinker with his Arch Linux Operating
         System and enjoys collecting custom keyboards.
       </p>
@@ -87,7 +87,7 @@ import { ref } from 'vue';
 export default {
 	data() {
 		return {
-			display: false,
+			display: false
 		};
 	},
 	setup() {
@@ -106,26 +106,26 @@ export default {
 			// remove cursor when finished
 			afterComplete: function (instance) {
 				instance.destroy();
-			},
+			}
 		})
 			.type('Hello! I am a full stack web developer based in Malaysia.')
 			.go();
-	},
+	}
 };
 </script>
 
 <style>
-.selector {
-  background-color: var(--bg-sel);
-}
+  .selector {
+    background-color: var(--bg-sel);
+  }
 
-.copyright {
-  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
-  animation-delay: 3s;
-}
+  .copyright {
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+  }
 
-/* @keyframes copyright {
+  /* @keyframes copyright {
   0% {
     opacity: 0;
   }

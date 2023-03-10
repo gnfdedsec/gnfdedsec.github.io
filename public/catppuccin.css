@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('assets/MonoLisa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'MonoLisa' !important;
+    font-size: 1.125rem;
+    line-height: 1.95rem;
+    letter-spacing: 0.017rem;
+    font-weight: 300;
+}
 :root {
     --ctp-latte-rosewater: #de9584;
     --ctp-latte-rosewater-rgb: rgb(222, 149, 132);
