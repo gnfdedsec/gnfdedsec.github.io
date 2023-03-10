@@ -35994,7 +35994,7 @@ const $T = {
 			}
 		}
 	},
-	ZT = (n) => ($p('data-v-38da5804'), (n = n()), Zp(), n),
+	ZT = (n) => ($p('data-v-aafc73f6'), (n = n()), Zp(), n),
 	KT = { class: 'pt-2 navbar fixed w-full divCenter' },
 	JT = { class: '2xl:flex flex-row py-3 px-3 hidden ml-20' },
 	QT = { class: 'text-4xl font-bold headers' },
@@ -36152,7 +36152,7 @@ function f2(n, e, t, i, r, s) {
 }
 var h2 = $t($T, [
 	['render', f2],
-	['__scopeId', 'data-v-38da5804']
+	['__scopeId', 'data-v-aafc73f6']
 ]);
 const p2 = {
 		emits: ['apply-theme'],
@@ -38460,7 +38460,7 @@ const aA = {
 		class: 'lg:text-xl text-md acrlyic w-auto text-center selector'
 	},
 	uA = Qo(
-		'<div class="flex flex-col lg:flex-row"><div class="lg:w-1/2 p-4 order-2 lg:order-1"><section><h1 class="text-4xl font-bold">gnf dedsec</h1><h3 class="text-lg"> Professional Front-end developer</h3><h3 class="text-lg"> B.sc KKU TH </h3></section></div><div class="lg:w-1/2 p-4 order-1 lg:order-2 flex justify-center items-center"><section><div class="rounded-full overflow-hidden h-48 w-48 border border-white-800 image-container"><img src="' +
+		'<div class="flex flex-col lg:flex-row"><div class="lg:w-1/2 p-4 order-2 lg:order-1"><section><h1 class="text-4xl font-bold">gnf dedsec</h1><h3 class="text-lg">Professional Front-end developer</h3><h3 class="text-lg">B.sc KKU TH</h3></section></div><div class="lg:w-1/2 p-4 order-1 lg:order-2 flex justify-center items-center"><section><div class="rounded-full overflow-hidden h-48 w-48 border border-white-800 image-container"><img src="' +
             sA +
             '" alt="Image description" class="w-full h-full object-cover"></div></section></div></div><section class="pt-2"><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Professional background </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 Professional junior web developer capable professional looking and user-friendly websites from stratch and writes <strong>performance optimized, reusable and refactorable codes</strong>. Professionally developed 5 web applications with multiple Javascript frameworks. </p><br><p class="lg:text-lg text-sm text-justify leading-6"> Hungry for knowledge, collaborative individual and possess analytical skills. Enjoys problem solving and willing to adapt to changes in the industry to stay on top. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Bio </h2><br><p class="lg:text-lg text-sm text-justify leading-6"> \xA0\xA0\xA0\xA0 gnf has a strong passion on technology and computers. Outside of programmimg, gnf has a hobby of collecting and engage with technology. He likes to tinker with his Arch Linux Operating System and enjoys collecting custom keyboards. </p></section><section class=""><h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8 decoration-2"> Journey </h2><br><div class="flex flex-col gap-2"><p class="lg:text-lg text-sm text-justify"><strong>2017:</strong> \xA0 Started journey on programming as a hobby </p><p class="lg:text-lg text-sm text-justify"><strong>2020:</strong> \xA0 Enrolled for diploma of ICT with specalism in software engineering </p><p class="lg:text-lg text-sm text-justify"><strong>2022:</strong> \xA0 Started journey on web development </p></div></section>',
 		4
