@@ -9,7 +9,7 @@
       ></p>
     </div>
     <section class="">
-      <h1 class="text-4xl font-bold">gnf Lyn</h1>
+      <h1 class="text-4xl font-bold">gnf d2</h1>
       <h3 class="text-lg">Professional web developer</h3>
     </section>
     <section class="pt-2">
